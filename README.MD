@@ -80,6 +80,7 @@ FINAL_PROJECT/
     Precision: 0.90 (Class 0), 0.69 (Class 1)
     Recall: 0.96 (Class 0), 0.43 (Class 1)
     F1-score: 0.93 (Class 0), 0.53 (Class 1)
+![Logistic Regression SHAP](logistic_regression_shap.png)
 
 ### 2. **Decision Tree Classifier**
     Used Gini Index as the splitting criterion.
@@ -88,6 +89,8 @@ FINAL_PROJECT/
     Precision: 0.86 (Class 0), 0.53 (Class 1)
     Recall: 0.97 (Class 0), 0.19 (Class 1)
     F1-score: 0.91 (Class 0), 0.28 (Class 1)
+![Decision Tree SHAP](decision_tree_shap.png)
+
 ---
 
 ## ✅ Model Performance
