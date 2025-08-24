@@ -1,3 +1,4 @@
+
 # Employee Attrition Analysis & Prediction
 
 ## 📌 Overview
@@ -124,6 +125,7 @@ shap.summary_plot(shap_values, X_test)
 
 # Force plot for one observation
 shap.force_plot(explainer.expected_value, shap_values[0], X_test.iloc[0])
+```
 
 ## 🧾 Conclusion 
 Logistic Regression outperforms the Decision Tree overall (higher accuracy and ROC-AUC) and offers more stable, interpretable coefficients.
